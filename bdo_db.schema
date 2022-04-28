@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS items (
     items_id INTEGER PRIMARY KEY,
     item_name TEXT NOT NULL,
     material TEXT NOT NULL,
-    label TEXT NOT NULL,
+    label TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS market (
