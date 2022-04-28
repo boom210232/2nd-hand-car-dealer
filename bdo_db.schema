@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS items (
+CREATE TABLE IF NOT EXISTS item_detail (
     items_id INTEGER PRIMARY KEY,
     item_name TEXT NOT NULL,
     material TEXT NOT NULL,
