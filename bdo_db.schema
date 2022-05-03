@@ -8,7 +8,6 @@ CREATE TABLE IF NOT EXISTS item_detail (
 CREATE TABLE IF NOT EXISTS market (
     username_id INTEGER PRIMARY KEY,
     username TEXT NOT NULL,
-    buy_list INTEGER NOT NULL,
-    FOREIGN KEY (buy_list) REFERENCES items (items_id)
+    items_id INTEGER NOT NULL
 );
 

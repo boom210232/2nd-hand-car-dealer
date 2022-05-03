@@ -1,0 +1,1 @@
+     FOREIGN KEY (items_id) REFERENCES items_detail (items_id)
