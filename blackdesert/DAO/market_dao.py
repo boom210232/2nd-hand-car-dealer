@@ -8,3 +8,5 @@ class MarketDao:
 
     def get_all_market_transaction(self):
         return self.__session.query(Market).all()
+
+
