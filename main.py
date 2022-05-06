@@ -2,6 +2,7 @@ from models.item_detail import ItemDetail
 from models.market import Market
 from matplotlib.pyplot import title
 from blackdesert.blackdesert_online import BdoStarter
+from fastapi import FastAPI
 
 bdo_starter = BdoStarter()
 
@@ -12,4 +13,11 @@ trash_item = ItemDetail(items_id=500, item_name="Unknown", material="weapon", la
 print(bdo_starter.item_list().get_item_by_items_id(500))
 
 print(bdo_starter.market_list().get_market_by_username("livernoob"))
+print(bdo_starter.market_list().get_market_by_username_id(2))
 
+app = FastAPI()
+
+
+# @app.get("/item-list/{id}")
+# async def root(id):
+#     return {"info": bdo_starter.market_list().get_market_by_username_id(id)}
