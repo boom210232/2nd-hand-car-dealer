@@ -35,16 +35,8 @@ In case that you want to fix after first time. Use this command to open sqlite.
 ## Documents for this repository.
 TBA
 
-## Web Service API
-### Overview
-This service is made for simulate about market in black desert market. The main object is record the behevior between user and item game in the market.
-(Liked player interested)
-### Common components
-### Authentication
-- None
-### HTTP method
-
-### Example request.
+## Wiki
+[Link to Wiki](https://github.com/boom210232/blackdesert-DAO/wiki)
 
 
 
