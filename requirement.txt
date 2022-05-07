@@ -1,3 +1,4 @@
 SQLAlchemy==1.4.36
 sqlite3
 typing-extensions==3.10.0.2
+fastapi

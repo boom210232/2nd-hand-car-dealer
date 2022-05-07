@@ -18,7 +18,7 @@ print(bdo_starter.market_list().get_market_by_username_id(2))
 print("-------------------------------------------------------------")
 new_arrival=Market(username_id=52,username="BillClinton",items_id=28)
 # print(bdo_starter.market_list().add_market(new_arrival))
-print(bdo_starter.market_list().get_market_by_username("BillClinton"))
+print(bdo_starter.market_list().get_market_by_username("Trumped"))
 
 app = FastAPI()
 
@@ -26,7 +26,7 @@ app = FastAPI()
 # @app.get("/item-list/{id}")
 # async def root(id):
 #     return {"info": bdo_starter.market_list().get_market_by_username_id(id)}
-
-@app.post("/item-list/add-new-market-user")
-async def root(user_id, username,item_id):
-    return {"info": bdo_starter.market_list().add_market(Market(username_id=user_id,username=str(username),items_id=item_id))}
+#
+# @app.post("/item-list/add-new-market-user")
+# async def root(user_id, username,item_id):
+#     return {"info": bdo_starter.market_list().add_market(Market(username_id=user_id,username=str(username),items_id=item_id))}
