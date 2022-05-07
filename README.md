@@ -41,10 +41,11 @@ Then go to `http://127.0.0.1:8000/docs` to use API with swagger.io UI.
    
 
 ## Documents for this repository.
-[Domain Model](https://github.com/boom210232/blackdesert-DAO/wiki/Domain-Model)     
+[Domain Model](https://github.com/boom210232/blackdesert-DAO/wiki/Domain-Model)           
+[Package diagram](https://github.com/boom210232/blackdesert-DAO/wiki/Package-diagram)       
 [UML diagram](https://github.com/boom210232/blackdesert-DAO/wiki/UML-diagram)          
 [Web service API](https://github.com/boom210232/blackdesert-DAO/wiki/Web-Services-API)     
-Package diagram - TBA         
+Package and UML diagram - Draft version.        
   
 
 ## Wiki
