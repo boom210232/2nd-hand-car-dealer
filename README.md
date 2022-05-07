@@ -12,10 +12,12 @@
 - username is a username that show in black desert online.
 - buy_item to show what player buy reference to the id of the item in "item detail table"
 
-
+### Getting started###
+Please install requirement package by using below command.       
+` pip install -r requirement.txt` 
 ### How to use sqlite3 ###
-At first you need to install the requirement by using the command below.     
-` pip install -r requirement.txt`      
+**In the case of no .db file in your local machine only. If it have, please skip it.**       
+At first you need to install the requirement by using the command below.          
 Then, you need to make the database file by using this command       
 `sqlite3 bdo_database.db -init bdo_db.schema`     
 The sqlite will redirect to loading the resource from the schema for the first time.
