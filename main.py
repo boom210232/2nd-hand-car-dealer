@@ -1,6 +1,6 @@
 from models.item_detail import ItemDetail
 from models.market import Market
-from matplotlib.pyplot import title
+# from matplotlib.pyplot import title
 from blackdesert.blackdesert_online import BdoStarter
 from fastapi import FastAPI
 
@@ -14,6 +14,11 @@ print(bdo_starter.item_list().get_item_by_items_id(500))
 
 print(bdo_starter.market_list().get_market_by_username("livernoob"))
 print(bdo_starter.market_list().get_market_by_username_id(2))
+
+print("-------------------------------------------------------------")
+new_arrival=Market(username_id=51,username="JebBush",items_id=11)
+# print(bdo_starter.market_list().add_market(new_arrival))
+print(bdo_starter.market_list().get_market_by_username("JebBush"))
 
 app = FastAPI()
 
