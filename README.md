@@ -15,7 +15,7 @@
 ### Getting started
 Please install requirement package by using below command.       
 ` pip install -r requirement.txt` 
-### How to use sqlite3 ###
+### How to use sqlite3 
 **In the case of no .db file in your local machine only. If it have, please skip it.**       
 At first you need to install the requirement by using the command below.          
 Then, you need to make the database file by using this command       
@@ -32,7 +32,13 @@ Then copy by step these three line below for import .csv files to the DB.
 `.quit` or you can use Ctrl + C for exit
 
 In case that you want to fix after first time. Use this command to open sqlite.         
-`sqlite3 bdo_database.db`     
+`sqlite3 bdo_database.db`      
+
+### Try to use Swagger with FastAPI    
+After install package in requirement.txt      
+You can use FastAPI by using `uvicorn main:app --reload` to run the FastAPI.         
+Then go to `http://127.0.0.1:8000/docs` to use API with swagger.io UI.
+   
 
 ## Documents for this repository.
 [Domain Model](https://github.com/boom210232/blackdesert-DAO/wiki/Domain-Model)     
