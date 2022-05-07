@@ -12,7 +12,7 @@
 - username is a username that show in black desert online.
 - buy_item to show what player buy reference to the id of the item in "item detail table"
 
-### Getting started###
+### Getting started
 Please install requirement package by using below command.       
 ` pip install -r requirement.txt` 
 ### How to use sqlite3 ###
@@ -35,7 +35,11 @@ In case that you want to fix after first time. Use this command to open sqlite.
 `sqlite3 bdo_database.db`     
 
 ## Documents for this repository.
-TBA
+[Domain Model](https://github.com/boom210232/blackdesert-DAO/wiki/Domain-Model)     
+[UML diagram](https://github.com/boom210232/blackdesert-DAO/wiki/UML-diagram)          
+[Web service API](https://github.com/boom210232/blackdesert-DAO/wiki/Web-Services-API)     
+Package diagram - TBA         
+  
 
 ## Wiki
 [Link to Wiki](https://github.com/boom210232/blackdesert-DAO/wiki)
